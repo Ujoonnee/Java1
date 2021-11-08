@@ -9,8 +9,10 @@ public class OkJavaGoinHomeInput {
 	// parameter, 매개변수
 	public static void main(String[] args) {
 
-		String id = JOptionPane.showInputDialog("Enter your id");
-		String bright = JOptionPane.showInputDialog("brightness");
+	
+		String id = args[0];
+		String bright = args[1];
+
 		
 		// call Elevator
 		Elevator myElevator = new Elevator(id);
