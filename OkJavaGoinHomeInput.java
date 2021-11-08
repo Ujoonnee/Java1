@@ -6,7 +6,7 @@ import org.opentutorials.iot.Lighting;
 import org.opentutorials.iot.DimmingLights;
 
 public class OkJavaGoinHomeInput {
-
+	// parameter, 매개변수
 	public static void main(String[] args) {
 
 		String id = JOptionPane.showInputDialog("Enter your id");
