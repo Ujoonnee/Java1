@@ -2,15 +2,13 @@
 public class MyOOP {
 	public static void main(String[] args) {
 		// 1 million codes
-		PrintOOP p1 = new PrintOOP();
-		p1.delimiter = "-----";
+		PrintOOP p1 = new PrintOOP("-----");
 		p1.A();
 		p1.A();
 		p1.B();
 		p1.B();
 		
-		PrintOOP p2 = new PrintOOP();
-		p2.delimiter = "*****";
+		PrintOOP p2 = new PrintOOP("*****");
 		p2.A();
 		p2.A();
 		p2.B();
