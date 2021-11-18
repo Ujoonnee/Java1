@@ -4,6 +4,14 @@ class Cal {
 	}
 }
 class Cal3 extends Cal {
+	public int minus(int v1, int v2) {
+		return v1-v2;
+	}
+	// Overriding
+	public int sum(int v1, int v2) {
+		System.out.println("Cal3!!");
+		return v1+v2;
+	}
 	
 }
 
@@ -14,6 +22,8 @@ public class InheritanceApp {
 		System.out.println(c.sum(2, 1));
 		
 		Cal3 c3 = new Cal3();
+		System.out.println(c3.sum(2,2));
+		System.out.println(c3.minus(2,1));
 		System.out.println(c3.sum(2,2));
 	}
 }
